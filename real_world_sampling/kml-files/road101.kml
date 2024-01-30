@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>N. Yungas Rd.</name>
+    <Style id="line-000000-1200-nodesc-normal">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.2</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-000000-1200-nodesc-highlight">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.8</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-000000-1200-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-000000-1200-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-000000-1200-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Line 1</name>
+      <styleUrl>#line-000000-1200-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+            -67.7845523,-16.2516948,0
+            -67.7843377,-16.2521068,0
+            -67.784504,-16.2523643,0
+            -67.7844558,-16.2527866,0
+            -67.7840803,-16.2534046,0
+            -67.7841875,-16.2539505,0
+            -67.783812,-16.2544758,0
+            -67.7839944,-16.2547951,0
+            -67.7843914,-16.2547745,0
+            -67.7846382,-16.255032,0
+            -67.7844021,-16.2554749,0
+            -67.7841661,-16.25565,0
+            -67.7848098,-16.2561856,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

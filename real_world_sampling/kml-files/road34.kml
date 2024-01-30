@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Naamloze laag</name>
+    <Style id="line-000000-1200-nodesc-normal">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.2</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-000000-1200-nodesc-highlight">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.8</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-000000-1200-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-000000-1200-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-000000-1200-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Lijn 1</name>
+      <styleUrl>#line-000000-1200-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          6.7777928,53.1616142,0
+          6.7775138,53.1616078,0
+          6.7775353,53.161923,0
+          6.7774763,53.1620098,0
+          6.7772724,53.1620163,0
+          6.7770525,53.1620227,0
+          6.7769827,53.1619519,0
+          6.776972,53.1617268,0
+          6.7765214,53.161611,0
+          6.7764463,53.1616753,0
+          6.7762264,53.1617204,0
+          6.7759206,53.1617075,0
+          6.7759313,53.1615692,0
+          6.7758187,53.1615242,0
+          6.775706,53.1615403,0
+          6.7756685,53.1616528,0
+          6.775706,53.1617075,0
+          6.7757328,53.1617879,0
+          6.7756846,53.1618426,0
+          6.7755773,53.1618587,0
+          6.7754646,53.1619455,0
+          6.77547,53.1620645,0
+          6.7755934,53.1620967,0
+          6.7756953,53.1620774,0
+          6.7757114,53.1620066,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

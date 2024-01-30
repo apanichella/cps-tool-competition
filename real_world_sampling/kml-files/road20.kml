@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Naamloze laag</name>
+    <Style id="line-000000-1200-nodesc-normal">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.2</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-000000-1200-nodesc-highlight">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.8</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-000000-1200-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-000000-1200-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-000000-1200-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Lijn 1</name>
+      <styleUrl>#line-000000-1200-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          2.7832176,39.8433432,0
+          2.7823378,39.8432114,0
+          2.7814044,39.8432938,0
+          2.7808143,39.8432114,0
+          2.7799023,39.8436068,0
+          2.7795912,39.8435903,0
+          2.778411,39.8425441,0
+          2.7785183,39.8423712,0
+          2.7787436,39.8424123,0
+          2.7793015,39.8430137,0
+          2.7798594,39.8430466,0
+          2.7801491,39.8426348,0
+          2.7804281,39.8424535,0
+          2.7815009,39.8424782,0
+          2.7822198,39.8421899,0
+          2.7822198,39.8416627,0
+          2.7820803,39.841292,0
+          2.781576,39.8409213,0
+          2.7814795,39.8404106,0
+          2.7808894,39.8394879,0
+          2.780192,39.8393067,0
+          2.7796878,39.8389771,0
+          2.7794732,39.8389936,0
+          2.779441,39.8391584,0
+          2.7796019,39.8393067,0
+          2.7804173,39.839595,0
+          2.7806104,39.8399657,0
+          2.7803851,39.8405753,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

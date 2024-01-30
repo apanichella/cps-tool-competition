@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Naamloze laag</name>
+    <Style id="line-000000-1200-nodesc-normal">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.2</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-000000-1200-nodesc-highlight">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.8</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-000000-1200-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-000000-1200-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-000000-1200-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Lijn 1</name>
+      <styleUrl>#line-000000-1200-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          73.2390325,34.2482503,0
+          73.2391827,34.2470265,0
+          73.2394187,34.2469378,0
+          73.2401054,34.2475231,0
+          73.2410495,34.2475763,0
+          73.2421653,34.2471684,0
+          73.2426374,34.2465476,0
+          73.2430236,34.245235,0
+          73.2424872,34.244827,0
+          73.242058,34.2449512,0
+          73.2412856,34.24598,0
+          73.240792,34.2460155,0
+          73.240277,34.2456962,0
+          73.23826,34.2451995,0
+          73.2375305,34.2442594,0
+          73.2385175,34.2436386,0
+          73.2390754,34.2429468,0
+          73.2392256,34.2422727,0
+          73.240041,34.2413858,0
+          73.2388608,34.2401441,0
+          73.2382386,34.2390798,0
+          73.2370369,34.2378735,0
+          73.2367794,34.2367559,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>
