@@ -24,3 +24,5 @@ Shapely==1.8.0
 tensorflow==2.10.0
 tomli==1.2.2
 zipp==3.6.0
+lxml==5.1.0
+pykml==0.2.0
